@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+background-color:white;
+}
+#box{
+  background-color: grey;
+  padding:10px;
+  border: 1px solid black;
+  margin:10px;
+  float:left;
+}
+#content{
+     background: grey;
+     padding:5px;
+    clear:right;
+    box-sizing: border-box;
+}
+#meOnly{
+  background: red;
+  float:right;
+  clear: left;
+  border: 1px black solid;
+}
+h1{
+position: relative;
+top:-32px;
+left:10px;
+}
+@media (min-width:992px){
+ #box{
+   width:31%;
+ }
+}
+@media (min-width:768px) and (max-width:991px){
+ #box{
+  width: 45%;
+ }
+}
+@media (max-width=767px){
+  width:auto;
+}
